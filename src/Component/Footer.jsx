@@ -1,5 +1,7 @@
 import React from "react";
-import { FaGreaterThan } from "react-icons/fa6";
+import { FaGreaterThan, FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -33,10 +35,18 @@ function Footer() {
                   </p>
                 </div>
                 <div className="  flex gap-3 items-end ">
-                  <div className=" h-8 w-8 bg-white rounded-full "></div>
-                  <div className=" h-8 w-8 bg-white rounded-full "></div>
-                  <div className=" h-8 w-8 bg-white rounded-full "></div>
-                  <div className=" h-8 w-8 bg-white rounded-full "></div>
+                  <div className=" h-8 w-8 text-blue-500 rounded-full text-xl grid items-center justify-center ">
+                  <FaFacebookF />
+                  </div>
+                  <div className=" h-8 w-8 text-rose-500 rounded-full text-xl grid items-center justify-center ">
+                  <FaInstagram />
+                  </div>
+                  <div className=" h-8 w-8 text-white rounded-full text-xl grid items-center justify-center ">
+                  <FaXTwitter />
+                  </div>
+                  <div className=" h-8 w-8  text-blue-500 rounded-full text-xl grid items-center justify-center ">
+                  <FaLinkedin />
+                  </div>
                 </div>
               </div>
             </div>

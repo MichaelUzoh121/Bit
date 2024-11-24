@@ -24,10 +24,10 @@ function Row5() {
       <div className=" min-h-[180vh] md:min-h-[120vh] lg:min-h-[100vh] w-full grid items-center justify-items-center ">
         <div className=" min-h-[170vh] md:min-h-[110vh] w-[90%] lg:w-[90%] lg:min-h-[80vh] grid md:grid-rows-[2fr_0.2fr] lg:grid-rows-[2fr_0.5fr] ">
           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
-            <div className=" border transition-all duration-[1s] hover:shadow-lg rounded-lg grid grid-rows-[1.4fr_1.2fr] ">
+            <div className=" border transition-all duration-[0.7s] hover:shadow-lg rounded-lg grid grid-rows-[1.4fr_1.2fr] ">
               <div className="  grid ">
                 <div
-                  className="bg-cover bg-no-repeat "
+                  className="bg-cover bg-no-repeat rounded-ss-lg rounded-se-lg  "
                   style={{ backgroundImage: `url(${image})` }}
                 ></div>
               </div>
@@ -55,10 +55,10 @@ function Row5() {
               </div>
             </div>
 
-            <div className=" border transition-all duration-[1s] hover:shadow-lg rounded-lg grid grid-rows-[1.4fr_1.2fr] ">
+            <div className=" border transition-all duration-[0.7s] hover:shadow-lg rounded-lg grid grid-rows-[1.4fr_1.2fr] ">
               <div className="  grid ">
                 <div
-                  className="bg-cover bg-no-repeat "
+                  className="bg-cover bg-no-repeat rounded-ss-lg rounded-se-lg  "
                   style={{ backgroundImage: `url(${image2})` }}
                 ></div>
               </div>
@@ -86,10 +86,10 @@ function Row5() {
               </div>
             </div>
 
-            <div className=" border transition-all duration-[1s] hover:shadow-lg rounded-lg grid grid-rows-[1.4fr_1.2fr] ">
+            <div className=" border transition-all duration-[0.7s] hover:shadow-lg rounded-lg grid grid-rows-[1.4fr_1.2fr] ">
               <div className="  grid ">
                 <div
-                  className="bg-cover bg-no-repeat "
+                  className="bg-cover bg-no-repeat rounded-ss-lg rounded-se-lg  "
                   style={{ backgroundImage: `url(${image3})` }}
                 ></div>
               </div>
@@ -100,13 +100,13 @@ function Row5() {
                   </p>
                   <p>
                     Master the art of creating efficient and innovative
-                    software. We equip you with
-                    the tools to build impactful solutions.
+                    software. We equip you with the tools to build impactful
+                    solutions.
                   </p>
                   <div className="flex gap-10">
                     <div className=" flex gap-2 items-center ">
                       <FaCalendar />
-                      <p>6 months</p>
+                      <p>1 Year</p>
                     </div>
                     <div className=" flex gap-1 items-center ">
                       <IoIosAlert />
@@ -117,15 +117,14 @@ function Row5() {
               </div>
             </div>
           </div>
-          
-            <div className=" grid items-center lg:items-end justify-items-center ">
-              <button className=" h-[7vh] lg:min-h-[10vh] w-[40%] md:w-[25%] lg:w-[20%] bg-sky-500 rounded-md hover:bg-green-700 transition-all duration-[0.6s] ">
+
+          <div className=" grid items-center lg:items-end justify-items-center ">
+            <button className=" h-[7vh] lg:min-h-[10vh] w-[40%] md:w-[25%] lg:w-[20%] bg-sky-500 rounded-md hover:bg-green-700 transition-all duration-[0.5s] ">
               <Link to="/courses" className="grid">
                 View all courses
-                </Link>
-              </button>
-            </div>
-          
+              </Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>

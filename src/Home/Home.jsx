@@ -7,6 +7,7 @@ import Row5 from './Row5'
 import Row6 from './Row6'
 import Row7 from './Row7'
 import Row8 from './Row8'
+import Row9 from './Row9'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Row6/>
       <Row7/>
       <Row8/>
+      <Row9/>
     </div>
   )
 }

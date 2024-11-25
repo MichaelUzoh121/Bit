@@ -2,7 +2,7 @@ import React from 'react'
 
 function Row8() {
   return (
-    <div>Row8</div>
+    <div className=' min-h-[100vh] w-full bg-sky-50  ' >Student Testimonial</div>
   )
 }
 

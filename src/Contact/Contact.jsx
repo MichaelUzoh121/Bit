@@ -6,10 +6,10 @@ import { MdOutlinePhone } from "react-icons/md";
 
 function Contact() {
   return (
-    <div className=" min-h-[270vh] w-full grid grid-rows-[2fr_1fr] ">
-      <div className="  grid grid-rows-[0.6fr_2fr]">
+    <div className=" md:h-[300vh] lg:min-h-[270vh] w-full grid grid-rows-[2fr_1fr] ">
+      <div className="  grid md:grid-rows-[0.2fr_2fr] lg:grid-rows-[0.6fr_2fr]">
         <div className=" grid items-center justify-items-center ">
-          <div className=" min-h-[30vh] w-[40%] bg-white  grid grid-rows-[1.5fr_2fr] ">
+          <div className=" min-h-[30vh] lg:w-[40%] md:w-[70%] md:min-h-[50vh]  bg-red-50  grid grid-rows-[1.5fr_2fr] ">
             <div className=" grid grid-cols-[0.2fr_1fr_1fr_1fr_0.2fr]">
               <div></div>
               <div className=" flex flex-col items-end justify-end gap-2 pr-3 ">
@@ -17,7 +17,7 @@ function Contact() {
                 <div className=" h-1 w-20 bg-sky-500 "></div>
               </div>
               <div className=" grid items-end justify-center ">
-                <p className=" text-sky-500 uppercase font-medium text-2xl ">
+                <p className=" text-sky-500 uppercase font-medium text-md md:text-2xl  lg:text-2xl ">
                   Contact us
                 </p>
               </div>
@@ -27,13 +27,13 @@ function Contact() {
               </div>
             </div>
             <div className=" grid items-center justify-center ">
-              <p className=" text-4xl font-bold ">We are here to Help You</p>
+              <p className=" text-4xl font-bold text-center ">We are here to Help You</p>
             </div>
           </div>
         </div>
         <div className="  grid grid-rows-[1.3fr_2fr] gap-5 ">
-          <div className=" grid justify-items-center items-center ">
-            <div className=" w-[90%] h-[90%]  grid grid-cols-3 gap-3 ">
+          <div className=" grid justify-items-center items-center bg-black ">
+            <div className=" lg:w-[90%] md:w-[60%] lg:h-[90%] bg-slate-500  grid grid-cols-1 lg:grid-cols-3 gap-3 ">
               <div className=" grid grid-rows-[0.7fr_2fr] ">
                 <div className="  grid items-center justify-center ">
                   <div className=" h-20 w-20 rounded-full bg-sky-500 absolute grid items-center justify-center text-4xl text-white top-[62%] left-[16.5%] ">

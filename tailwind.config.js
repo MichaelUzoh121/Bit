@@ -17,6 +17,12 @@ export default {
         gradient: 'gradient 6s ease infinite',
       },
     },
+    extend: {
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        poppins: ['"Poppins"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

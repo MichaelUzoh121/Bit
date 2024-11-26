@@ -1,9 +1,11 @@
 import React from 'react'
+import MySwiper from '../Component/Swiper';
+
 
 function Row1() {
   return (
-    <div className=' min-h-[110vh] w-full bg-red-500 grid items-center justify-center '>
-        <p className=' text-4xl '>add slider here</p>
+    <div className=' grid min-h-[150vh] w-full bg-black   '>
+        <MySwiper/>
     </div>
   )
 }

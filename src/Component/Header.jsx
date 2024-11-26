@@ -1,10 +1,13 @@
 import React from 'react'
 import Menu from './Menu'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+
 
 function Header() {
+  const { pathname } = useLocation();
+
   return (
-    <div className=' min-h-[11vh] w-full bg-white grid grid-cols-[1fr_2fr] shadow-lg '>
+    <div className={` min-h-[11vh] w-full ${pathname === "/courses"? "bg-black text-white" : "bg-white " }  grid grid-cols-[1fr_2fr] shadow-lg `}>
         <div className=' grid items-center justify-center '>
             <p className='text-3xl text-blue-500 font-bold '>SITE</p>
         </div>
@@ -13,9 +16,9 @@ function Header() {
                 <Menu/>
             </div>
             
-            <div className=' grid items-center justify-center bg-sky-500  '>
+            <div className={` grid items-center justify-center duration-500 bg-sky-500 ${pathname === "/courses"? " rounded-[50px] h-[50px] w-[150px] text-black mt-2" : " text-white"}`}>
             <Link to='/register'>
-                <p className=' text-md font-medium text-white uppercase '>Join Now</p>
+                <p className=' text-md font-medium uppercase '>Join Now</p>
             </Link>
             </div>
             

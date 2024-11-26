@@ -8,11 +8,13 @@ import Row6 from './Row6'
 import Row7 from './Row7'
 import Row8 from './Row8'
 import Row9 from './Row9'
+// import MySwiper from '../Component/Swiper'
 
 function Home() {
   return (
     <div className='  w-full bg-white grid '>
-      <Row1/>
+      {/* <MySwiper/> */}
+      {/* <Row1/> */}
       <Row2/>
       <Row3/>
       <Row4/>

@@ -9,8 +9,8 @@ function Row1() {
       <div className=" grid items-center justify-items-center min-h-[90vh] bg-[length:200%_200%] animate-gradient bg-gradient-to-r from-sky-900 via-sky-500 to-sky-300">
         <div className=" w-[60%] grid items-center justify-center  ">
           <p className=" text-4xl md:text-6xl lg:text-6xl font-bold text-center uppercase  text-white">
-            {/* Welcome to Bitxbase Technology */}
-            About us
+            Welcome to Bitxbase Technology
+            {/* About us */}
           </p>
         </div>
       </div>

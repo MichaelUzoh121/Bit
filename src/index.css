@@ -1,3 +1,42 @@
+@import 'swiper/css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-container {
+    height: 100%; /* Ensure the container has height */
+    width: 100%; /* Ensure it spans full width */
+}
+
+
+.holdbtn{
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.swiper-button-prev,.swiper-button-next{
+    all: unset !important;
+}
+.swiper-button-prev,.swiper-button-next{
+    border: 1px solid white;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+    all: unset !important;
+}
+.holdbtn button{
+    display: none;
+}
+.bobo{
+    background-color: rebeccapurple;
+}
+/* .swiper-button-next{
+    all: unset;
+} */

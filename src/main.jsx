@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import Contact from './Contact/Contact';
 import Courses from './Courses/Courses'
 import Layout from './Layout';
+import Register from './Register/Register';
 import NoPage from './Component/NoPage'
 
 
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="courses" element={<Courses />} />
+          <Route path="register" element={<Register />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>

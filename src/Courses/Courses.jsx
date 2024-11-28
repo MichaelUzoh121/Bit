@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CourseCard from "./CourseCard";
 import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Courses() {
+
+  const [courses, setCourses] = useState([]);
+
+  useEffect(() => {
+    // Fetch data from the public folder
+    fetch("./Courses.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch courses.");
+        }
+        return response.json();
+      })
+      .then((data) => {console.log(data); setCourses(data)})
+      .catch((error) => console.error("Error fetching courses:", error));
+  }, []);
+
   return (
     <div className=" grid ">
       <div className=" bg-black text-white pl-[3rem] pt-[1rem] min-h-[45vh] relative grid">
@@ -18,12 +34,24 @@ function Courses() {
         </div>
         <div className=" grid ">
           <div className=" h-[70px] bg-sky-950 absolute w-[95%] rounded-r-[10px] left-0 mt-[30px] flex items-center font-semibold pl-6">
-            <FaHome className="inline" />{" "}
+            <FaHome className="inline" />
             <span><Link to="/"  className=" ml-2 hover:text-sky-500 duration-500">HOME</Link> / COURSES</span>
           </div>
         </div>
       </div>
-      <CourseCard />
+      <div className=" mt-10 flex items-center justify-center">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[85%]">
+          {
+            courses.length > 0? 
+            courses.map(course=>(
+              <CourseCard courses={course}/>
+            ))
+            :
+            (<p>Loading...</p>)
+          }
+        </div>
+        
+      </div>
     </div>
   );
 }

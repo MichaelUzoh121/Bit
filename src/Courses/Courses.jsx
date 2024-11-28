@@ -22,7 +22,7 @@ function Courses() {
             <span>
               <Link to="/" className=" ml-2 hover:text-sky-500 duration-500">
                 HOME
-              </Link>{" "}
+              </Link>
               / COURSES
             </span>
           </div>

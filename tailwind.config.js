@@ -16,8 +16,6 @@ export default {
       animation: {
         gradient: 'gradient 6s ease infinite',
       },
-    },
-    extend: {
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
         poppins: ['"Poppins"', 'sans-serif'],
@@ -25,5 +23,4 @@ export default {
     },
   },
   plugins: [],
-}
-
+};

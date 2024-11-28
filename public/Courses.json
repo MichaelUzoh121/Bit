@@ -1,0 +1,285 @@
+[
+  {
+    "id":0,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Front-End Development (Specialised)",
+    "courseDuration": "3 Months",
+    "courseHint": "Start off your career today as a Front-End Web Developer. Learn to build high-quality websites with dynamic applications to create stunning user experiences.",
+    "courseContent": [
+      "HTML5",
+      "CSS/CSS3/Tailwind/PureCSS",
+      "Corel Draw (Basics)",
+      "Photoshop (Basics)",
+      "User Experience/Wireframe/Figma Basics",
+      "Javascript",
+      "Typescript",
+      "ReactJs",
+      "Git & Github",
+      "Final Project"
+    ]
+  },
+  {
+    "id":1,
+    "courseImage": "../src/image/data.jpg",
+    "courseName": "Data Analytics",
+    "courseDuration": "6 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "Excel, Advance Excel(VBA)",
+      "SQL",
+      "R Language",
+      "Power BI, Tableau", 
+      "Python",
+      "Numpy, Pandas, Mathplotlib"
+    ]
+  },
+  {
+    "id":2,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Front-End Development (Complete Stack)",
+    "courseDuration": "5 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "HTML5, CSS/CSS3",
+      "Bootstrap/Tailwind/PureCSS",
+      "Redux/Mobx, RxJs/NgRx, Vuex, Nuxt",
+      "User Experience/Wireframe/Figma Basics",
+      "Javascript, Typescript",
+      "ReactJs Essentials",
+      "VueJs Essentials",
+      "Angular Essentials",
+      "Git & Github",
+      "Final Project"
+    ]
+  },
+  {
+    "id":3,
+    "courseImage": "../src/image/box.webp",
+    "courseName": "Back-End Development",
+    "courseDuration": "3 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      {
+        "track": "JavaScript",
+        "modules": [
+          "AJAX",
+          "ReactJs/NextJs",
+          "NodeJS",
+          "ExpressJs",
+          "MongoDB",
+          "Axios, API",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "Python",
+        "modules": [
+          "API",
+          "SQL/GraphQL",
+          "MySQL",
+          "Django",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "PHP",
+        "modules": [
+          "API",
+          "SQL/GraphQL",
+          "MySQL",
+          "Laravel",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "C#",
+        "modules": [
+          "API",
+          "SQL/GraphQL",
+          "SQL Server",
+          ".Net Core",
+          "ASP.Net",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "Java",
+        "modules": [
+          "API",
+          "SQL/GraphQL",
+          "Spring Basics",
+          "Web Development",
+          "Data Access",
+          "Git & Github",
+          "Final Project"
+        ]
+      }
+    ]
+  },
+  {
+    "id":4,
+    "courseImage": "../src/image/web.jpeg",
+    "courseName": "Full-Stack Web Development",
+    "courseDuration": "6 Months",
+    "courseHint": "Learn to build dynamic websites and applications from front to back. We equip you with the skills to excel in the tech industry.",
+    "courseContent": [
+      {
+        "track": "JavaScript",
+        "modules": [
+          "HTML5",
+          "CSS/CSS3, Saas, Less",
+          "Bootstrap/Tailwind",
+          "Wordpress",
+          "Prototyping (XD)",
+          "Javascript, JQuery",
+          "Redux/Mobx, Typescript",
+          "ReactJs/NextJs",
+          "NodeJS",
+          "ExpressJs",
+          "MongoDB",
+          "Axios, API",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "Python",
+        "modules": [
+          "HTML5",
+          "CSS/CSS3, Saas, Less",
+          "Bootstrap/Tailwind",
+          "Wordpress",
+          "Prototyping (XD)",
+          "Javascript, JQuery",
+          "ReactJs/VueJs",
+          "Redux/Mobx, Typescript",
+          "REST, Docker API",
+          "SQL/GraphQL",
+          "MySQL/PostgreSQL",
+          "Python, Django",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "PHP",
+        "modules": [
+          "HTML5",
+          "CSS/CSS3, Saas, Less",
+          "Bootstrap/Tailwind",
+          "Wordpress",
+          "Prototyping (XD)",
+          "Javascript, JQuery",
+          "ReactJs/VueJs",
+          "Redux/Mobx, Typescript",
+          "REST API",
+          "SQL/GraphQL",
+          "MySQL/PostgreSQL",
+          "PHP, Laravel, Livewire",
+          "Git & Github",
+          "Final Project"
+        ]
+      }
+    ]
+  },
+  {
+    "id":5,
+    "courseImage": "../src/image/ai.jpeg",
+    "courseName": "Artificial Intelligence(AI) (Complete Stack)",
+    "courseDuration": "12 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      {
+        "track": "AdvancePython_DataScienceBasics",
+        "modules": [
+          "Python Essentials",
+          "Python Core, Interactive Python",
+          "Data Processing with Numpy",
+          "Data Processing with Pandas",
+          "Advance Pandas",
+          "Pivot Tablets and Visualisation",
+          "Sworm Gro",
+          "The Rastrigin Function",
+          "Swam intelligence in Python",
+          "Building Game",
+          "The Entire TF learn code",
+          "Using the MDP toolbox in python",
+          "Understanding Swam intelligence",
+          "Application of Swam intelligence"
+        ]
+      },
+      {
+        "track": "DeepLearning",
+        "modules": [
+          "Intro to Deep Learning",
+          "Basic of TensorFlow",
+          "Tensors",
+          "Neural Network",
+          "Keras",
+          "Functions and Metrics",
+          "Models",
+          "Regression",
+          "Scikit-Learn for Logistics Regression",
+          "Build Sequential Keras Model",
+          "RNN and LSTM",
+          "Speech",
+          "Google Speech",
+          "Voice Recognition",
+          "API",
+          "Cognitive Service Providers Microsoft",
+          "Azure",
+          "Amazon Cognitive Services",
+          "Building a chatbot",
+          "Chatbot Development",
+          "Face(Detection, Recognition & Analysis",
+          "Time-Series",
+          "OpenCV",
+          "Eigenfaces",
+          "LBPH",
+          "Detecting a face etc."
+        ]
+      },
+      {
+        "track": "MachineLearning",
+        "modules": [
+          "Intro to Machine Learning",
+          "Categories of Machine Learning",
+          "Qualitative Examples of Machine Learning",
+          "Applications",
+          "Data Representation in Machine Learning",
+          "Data Division",
+          "Introducing Scikit-Learn",
+          "Hyperparameters and Model Validator",
+          "Feature Engineering",
+          "Handling Numberical Data",
+          "Handling Categorial in-depth: Decision trees and random forests",
+          "In-Depth: Principal Component Analysis",
+          "In-Depth: Moniford Learning",
+          "In-Depth: K-means clustering",
+          "In-Depth: Gaissian Mixture Models",
+          "Handling Text",
+          "Date",
+          "Handling images",
+          "In-Depth: Linear Regression",
+          "In-Depth: Support Vector",
+          "Machinesin-Depth: Kernel Density Estimation",
+          "Appicarion: A face detection pipeline"
+        ]
+      },
+      {
+        "track": "Artificial_Intelligence",
+        "modules": [
+          "AI, Interactive with reinforcement models, e.t.c",
+          "Open AI, Q learning with Python",
+          "Markov Chain etc",
+          "RP, Env, RL Algorithms and thory,MDP, SARSA, e.t.c",
+          "Natural Language processes(NPL), AI Applications e.t.c"
+        ]
+      }
+    ]
+  }
+]

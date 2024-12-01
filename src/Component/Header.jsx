@@ -8,7 +8,7 @@ function Header() {
   const { pathname } = useLocation();
 
   return (
-    <div className={` min-h-[11vh] w-full ${pathname === "/courses"? "bg-black text-white" : "bg-white " }  grid grid-cols-[1fr_2fr] shadow-lg `}>
+    <header className={` min-h-[11vh] w-full ${pathname === "/courses"? "bg-black text-white" : "bg-white " }  grid grid-cols-[1fr_2fr] shadow-lg `}>
         <div className=' grid items-start justify-center  '>
             {/* <p className='text-3xl text-blue-500 font-bold '>SITE</p> */}
             <img src={image} alt="" className=' h-[11vh] w-[13vw] ' />
@@ -19,13 +19,13 @@ function Header() {
             </div>
             
             <div className={` grid items-center justify-center duration-500 bg-sky-500 ${pathname === "/courses"? " rounded-[50px] h-[50px] w-[150px] text-black mt-2" : " text-white"}`}>
-            <Link to='/register'>
-                <p className=' text-md font-medium uppercase '>Join Now</p>
+            <Link to='/register' className=' text-md font-medium uppercase '>
+                Join Now
             </Link>
             </div>
             
         </div>
-    </div>
+    </header>
   )
 }
 

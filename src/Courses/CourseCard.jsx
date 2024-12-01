@@ -8,20 +8,21 @@ const CourseCard = ({ courses }) => {
 
   const showAcc = () => {
     if (acc === "0px") {
-      setAcc("150px");
+      setAcc("250px");
     } else {
       setAcc("0px");
     }
   };
 
   return (
-    <div className=" bg-white hover:cursor-pointer shadow-lg rounded-lg duration-300 transition-transform hover:scale-[1.01]">
-      <div className=" transition-all duration-[0.7s] hover:shadow-lg rounded-lg grid ">
+    <div className=" bg-white shadow-[1px_1px_5px_#0002] hover:shadow-lg rounded-lg duration-700 ">
+      <div className=" transition-all duration-[0.7s] rounded-lg grid ">
         <div className=" h-[200px] ">
-          <div className="rounded-ss-lg rounded-se-lg object-contain">
-            <img
+          <div className="rounded-ss-lg rounded-se-lg bg-cover">
+            <img  
               src={courses.courseImage}
               className=" w-full h-[200px] rounded-ss-lg rounded-se-lg"
+              loading="lazy"
             />
           </div>
         </div>
@@ -41,7 +42,7 @@ const CourseCard = ({ courses }) => {
               </button>
 
               <div
-                className="bg-sky-200 overflow-hidden duration-200 absolute"
+                className="bg-sky-200 w-full z-50 overflow-y-scroll scrollbar-thumb-sky-800 scrollbar-thin scrollbar-track-transparent duration-200 absolute"
                 style={{ height: acc }}
               >
                 {acc !== "0px" && (

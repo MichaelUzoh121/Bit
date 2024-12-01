@@ -6,9 +6,9 @@ import { MdOutlinePhone } from "react-icons/md";
 
 function Contact() {
   return (
-    <div className=" md:h-[300vh] lg:min-h-[270vh] w-full grid grid-rows-[2fr_1fr] ">
-      <div className="  grid md:grid-rows-[0.2fr_2fr] lg:grid-rows-[0.6fr_2fr]">
-        <div className=" grid items-center justify-items-center ">
+    <div className="  w-full grid ">
+      <div className="   grid ">
+        <div className=" grid items-center justify-items-center min-h-[40vh] ">
           <div className=" min-h-[30vh] lg:w-[40%] md:w-[70%] md:min-h-[50vh] lg:min-h-[30vh]  grid grid-rows-[1.5fr_2fr] ">
             <div className=" grid grid-cols-[0.2fr_1fr_1fr_1fr_0.2fr]">
               <div></div>
@@ -33,12 +33,12 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="  grid grid-rows-[1.3fr_2fr] gap-5 ">
-          <div className=" grid justify-items-center items-center ">
-            <div className=" lg:w-[90%] md:w-[60%] lg:h-[90%]  grid grid-cols-1 lg:grid-cols-3 gap-3 ">
+        <div className="  grid gap-5   ">
+          <div className=" min-h-[50vh] grid justify-items-center items-center ">
+            <div className=" lg:w-[90%] md:w-[60%] lg:h-[90%]  grid grid-cols-1 lg:grid-cols-3 gap-3">
               <div className=" grid grid-rows-[0.7fr_2fr] ">
-                <div className="  grid items-center justify-center ">
-                  <div className=" h-20 w-20 rounded-full bg-sky-500 absolute grid items-center justify-center text-4xl text-white lg:top-[65%] top-[62%] left-[16.5%] ">
+                <div className="  grid items-center justify-items-center  relative ">
+                  <div className=" h-20 w-20 rounded-full bg-sky-500 relative grid items-center justify-center text-4xl text-white lg:top-[40%] top-[62%] ">
                     <MdOutlineEmail />
                   </div>
                 </div>
@@ -49,22 +49,22 @@ function Contact() {
                 </div>
               </div>
               <div className=" grid grid-rows-[0.7fr_2fr] ">
-                <div className="  grid items-center justify-center ">
-                  <div className=" h-20 w-20 rounded-full grid items-center justify-center text-4xl text-white bg-sky-500 absolute lg:top-[65%] top-[62%] left-[47%] ">
+                <div className="  grid items-center justify-center relative ">
+                  <div className=" h-20 w-20 rounded-full grid items-center  relative justify-center text-4xl text-white bg-sky-500  lg:top-[40%] top-[62%]  ">
                     <MdOutlineLocationOn />
                   </div>
                 </div>
-                <div className=" bg-[#F0F9FA] rounded-md shadow-md flex gap-2 flex-col items-center justify-center ">
+                <div className=" bg-[#F0F9FA] rounded-md shadow-md flex gap-2 flex-col items-center justify-center pt-5 ">
                   <p className="text-2xl font-bold">Location Here</p>
                   <div className=" flex   ">
-                    <div className=" grid items-center ">
+                    <div className=" grid ">
                       <p className=" text-sm text-justify px-5 ">
                         Shop 10, 1st Floor, PETRO-CAM Plaza Filling Station,
                         Abuleado B/Stop, Satellite Town, Lagos, Nigeria
                       </p>
                     </div>
-                    <div className="  grid items-center  ">
-                      <p className=" text-sm px-5 pt-3  ">
+                    <div className="  grid ">
+                      <p className=" text-sm px-5 ">
                         148 Olojo Drive, High Taste B/Stop FCMB Building, Ojo,
                         Lagos, Nigeria
                       </p>
@@ -73,8 +73,8 @@ function Contact() {
                 </div>
               </div>
               <div className=" grid grid-rows-[0.7fr_2fr]  ">
-                <div className="  grid items-center justify-center ">
-                  <div className=" h-20 w-20 rounded-full grid items-center justify-center text-4xl text-white bg-sky-500 absolute lg:top-[65%] top-[62%] left-[77.5%] ">
+                <div className="  grid items-center justify-center relative ">
+                  <div className=" h-20 w-20 rounded-full grid items-center justify-center text-4xl text-white bg-sky-500 relative lg:top-[40%] top-[62%]  ">
                     <MdOutlinePhone />
                   </div>
                 </div>
@@ -86,7 +86,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className=" bg-[#FAFAFA] grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 ">
+          <div className=" min-h-[90vh] bg-[#FAFAFA] grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 ">
             <div className=" grid justify-items-center lg:justify-items-end items-center ">
               <div
                 className=" w-[100%] md:w-[70%]  lg:w-[70%] h-[90%] bg-no-repeat bg-cover  "
@@ -155,7 +155,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" min-h-[100vh] ">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63648042153!2d3.1191424844149247!3d6.548028243280463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1732223811258!5m2!1sen!2sng"
           width="100%"

@@ -94,7 +94,7 @@ const MySwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[100vh] bg-cover bg-bottom bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20   lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide3})`}}>
+          <div className="h-[100vh] bg-cover bg-bottom bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide3})`}}>
             <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
             <div className="relative z-20">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">

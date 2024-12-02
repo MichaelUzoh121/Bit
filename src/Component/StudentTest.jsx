@@ -75,6 +75,7 @@ function Resizable() {
                        <section>
                         <p className=" text-center">Lorem cingum maxime natus quia, minus nemo, qui expedita, laboriosam odio nostruos nihil expedita animi quisquam, beatae cum eveniet pariatur debitis, dolorem fugiat?</p>
                        </section>
+                       <h6 class="">“</h6>
                     </div>
                 </div>
             ))}

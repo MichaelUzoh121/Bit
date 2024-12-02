@@ -7,7 +7,7 @@ function Header() {
   const { pathname } = useLocation();
 
   return (
-    <header className={` min-h-[11vh] w-full ${pathname === "/courses"? "bg-black text-white" : "bg-white " }  grid grid-cols-[1fr_2fr] shadow-lg `}>
+    <header className={` min-h-[11vh] bg-gradient-to-b from-[#0007] via-transparent to-transparent w-full ${pathname === "/courses"? "bg-black text-white" : " bg-transparent"} absolute w-full z-[10000] text-white grid grid-cols-[1fr_2fr] `}>
         <div className=' grid items-center justify-center '>
             <p className='text-3xl text-blue-500 font-bold '>SITE</p>
         </div>

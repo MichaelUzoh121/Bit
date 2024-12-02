@@ -1,9 +1,73 @@
-@import 'swiper/css';
+/* @import 'swiper/css'; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.swiper-container {
+/* .swiper-container {
     height: 100%; 
     width: 100%; 
+} */
+
+/* Wrapper for the slider to hold the gradients */
+.slider-wrapper {
+    position: relative;
+    /* background-color: red; */
+    /* overflow: hidden; */
+  }
+  
+  /* Add fading gradient effect */
+  .slider-wrapper::before,
+  .slider-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%; /* Adjust as needed for the fade effect */
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  /* Left gradient */
+  .slider-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, #F0F9FF 90%, transparent);
+    /* background-color: indianred; */
+  }
+  
+  /* Right gradient */
+  .slider-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left,#F0F9FF 90%, transparent );
+  }
+  
+/* For the dots */
+.slick-dots {
+    bottom: -50px !important;
+}
+
+.slick-dots li button::before{
+    font-family: 'slick';
+    font-size: 15px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px !important;
+    height: 20px !important;
+    content: '∎' !important;
+    color: transparent !important;
+    text-align: center;
+    transition: .5s;
+    opacity: .10;
+    -webkit-text-stroke-color: skyblue;
+    -webkit-text-stroke-width: 2px;
+}
+
+.slick-dots li.slick-active button::before {
+    color: skyblue !important;
+} 
+
+@media screen and (min-width:0px) and (max-width:768px){
+    .slider-wrapper::before, .slider-wrapper::after {
+        display: none;
+    }
 }

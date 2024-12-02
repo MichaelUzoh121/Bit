@@ -7,3 +7,15 @@
     height: 100%; 
     width: 100%; 
 }
+
+
+/* Hide scrollbars for all browsers */
+.hide-scrollbar {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+  

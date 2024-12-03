@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import picSlide1 from '../image/coding6.jpg'
 import picSlide2 from '../image/coding4.jpg'
 import picSlide3 from '../image/robot.jpg'
+import arrow from '../image/arrow.png'
 
 // Import Swiper modules
 import {
@@ -57,9 +58,10 @@ const MySwiper = () => {
         pagination={{ clickable: true }}
       >
         <SwiperSlide>
-          <div className="h-[100vh] bg-cover bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide1})`}}>
+          <div className="h-[100vh] bg-cover bg-[#0000007b] bg-blend-darken bg-center md:bg-top pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide1})`}}>
           <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
             <div className="relative z-20">
+              <img src={arrow} className=" absolute w-[70px] rotate-[190deg] mt-[-80px]"/>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
                 Don’t Just Watch the {" "}
                 <span className="block">Future Happen.</span>
@@ -76,7 +78,7 @@ const MySwiper = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="h-[100vh] bg-cover bg-center  bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide2})`}}>
+          <div className="h-[100vh] bg-cover bg-center md:bg-top bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide2})`}}>
             <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
             <div className="relative z-20">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
@@ -94,7 +96,7 @@ const MySwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[100vh] bg-cover bg-bottom bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide3})`}}>
+          <div className="h-[100vh] bg-cover bg-center md:bg-bottom bg-[#0000007b] bg-blend-darken pl-[20px] md:pl-20 lg:pl-[90px] flex items-center" style={{backgroundImage:`url(${picSlide3})`}}>
             <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
             <div className="relative z-20">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">

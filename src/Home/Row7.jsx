@@ -14,7 +14,7 @@ function Row7() {
         </div>
         <div className=" grid items-center ">
           <div className=" flex flex-col gap-10 md:gap-12 lg:gap-6 ">
-            <p className=" text-3xl font-medium text-sky-900 ">
+            <p className=" text-3xl font-medium text-sky-900">
               Discover Learning Like Never Before
             </p>
             <p>

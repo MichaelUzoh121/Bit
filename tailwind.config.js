@@ -23,6 +23,9 @@ export default {
       gradientColorStops: {
         '90%': '90%', 
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to left, #fff5, #0C4A6E, #fff5)',
+      }
   },
   plugins: [
     require('tailwind-scrollbar'),

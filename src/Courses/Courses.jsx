@@ -39,22 +39,22 @@ function Courses() {
 
   return (
     <div className=" ">
-      <div className=" bg-black text-white  min-h-[60vh] grid grid-rows-[2fr_1fr] ">
+      <div className=" bg-sky-50 min-h-[50vh] grid grid-rows-[2fr_1fr] ">
         <div className=" flex flex-col justify-center pl-5 ">
-          <h1 className=" text-3xl md:text-4xl lg:text-7xl font-poppings font-semibold">
+          <h1 className=" text-3xl md:text-4xl lg:text-6xl font-poppings font-semibold">
             Step Into the Future of Tech
           </h1>
-          <p className="mt-4 text-lg font-poppings  ">
+          <p className="mt-4 text-lg font-poppings">
             Explore courses designed to give you in-demand skills for today and
             tomorrow.
           </p>
         </div>
         <div className=" grid  items-center ">
-          <div className=" h-[70px] bg-sky-950 w-[95%] rounded-r-xl  font-semibold flex items-center pl-5 ">
+          <div className=" h-[70px] bg-sky-900 text-white w-[95%] rounded-r-xl font-semibold flex items-center pl-5 ">
             <FaHome className="inline" />
             <span>
               <Link to="/" className=" ml-2 hover:text-sky-500 duration-500">
-                HOME
+                HOME {" "}
               </Link>
               / COURSES
             </span>

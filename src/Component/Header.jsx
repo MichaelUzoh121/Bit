@@ -1,20 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import Menu from "./Menu";
 import { Link, useLocation } from "react-router-dom";
 import image from "../image/bitl.png";
 import { FaBars } from "react-icons/fa";
+import HamMenu from "./HamMenu";
 
 
 function Header() {
   const { pathname } = useLocation();
+  let [slide,setSlide] = useState("-100vw")
+  let [headerPosition,setHeaderPosition] = useState('')
+
+  const closeSlide =()=>{
+    setSlide('-100vw')
+  }
+
+  const showSlide =()=>{
+    setSlide("0")
+  }
+
+  window.onscroll =()=>{
+    if (window.scrollY > 150) {
+      setHeaderPosition('fixed bg-white')
+    } else {
+      setHeaderPosition('')
+    }
+  }
 
   return (
-    <header
-      className={` min-h-[11vh] w-full ${
-        pathname === "/courses" ? "bg-black text-white" : "bg-white "
-      } grid-cols-2 grid lg:grid-cols-[1fr_2fr] shadow-lg `}
+    <>
+     <header
+      className={` ${headerPosition} top-0 z-[100] min-h-[11vh] w-full  grid-cols-2 grid lg:grid-cols-[1fr_2fr] shadow-lg duration-300`}
     >
-      <div className=" grid items-center lg:items-start justify-center  ">
+      <div className=" grid items-center lg:items-start justify-center">
         {/* <p className='text-3xl text-blue-500 font-bold '>SITE</p> */}
         <Link to='/'>
         <img
@@ -42,11 +60,14 @@ function Header() {
         </div>
       </div>
       <div className="lg:hidden grid items-center  justify-end pr-5 md:pr-20 ">
-        <button className=" h-10  w-10 grid items-center justify-center shadow">
+        <button className=" h-10  w-10 grid items-center justify-center shadow" onClick={showSlide}>
         <FaBars />
         </button>
       </div>
     </header>
+    <HamMenu slide={slide} closeSlide={closeSlide}/>
+    </>
+   
   );
 }
 

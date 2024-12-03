@@ -281,5 +281,53 @@
         ]
       }
     ]
+  },
+  {
+    "id":6,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "UI/UX Design",
+    "courseDuration": "2 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "Intro to UI/UX Design, UI Fundamental, UX Design Concept",
+      "Sketching, Inspiration, Site Mapping, Wireframe(Low Fidelity)",
+      "UX Research, PRototyping, User Flows, Creative Briefs",
+      "Figma",
+      "Adobe XD"
+    ]
+  },
+  {
+    "id":7,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Data Science",
+    "courseDuration": "6 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "SQL II, R Language",
+     "Numpy, Pandas, Mathplotlib",
+     "Seaborn",
+     "Power BI",
+     "Machine LEarning(ML) & Modelling",
+     "Data Mining, Data Wrangling",
+     "Big Data Analysis with Python",
+     "Visualization"
+    ]
+  },
+  {
+    "id":8,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Robotic Development And Automation(RDA)",
+    "courseDuration": "12 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "Basic Electronics, Electronics Engineering & Troubleshooting",
+      "Introduction to Robotics, Robotics Fundamentals",
+      "Raspberry Pi, Ardulno, C++, Python/Rust, Robot Operating Systems(ROS), Simulation Tools",
+      "Control Systems in Robotics, Automations",
+      "Maching Vision and Perception, Localization and Mapping (SLAM)",
+      "Robot Maipulation and Grasping, Mobile Roboics and Navigation", 
+      "Embedded systems, 3d Modeling, Assembling anf Printing",
+      "Natural Language Processing (NPL), Internet of things(IOT)"
+    ]
   }
 ]

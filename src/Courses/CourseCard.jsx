@@ -17,13 +17,14 @@ const CourseCard = ({ courses }) => {
   return (
     <div className=" bg-white shadow-[1px_1px_5px_#0002] hover:shadow-lg rounded-lg duration-700 ">
       <div className=" transition-all duration-[0.7s] rounded-lg grid ">
-        <div className=" h-[200px] ">
-          <div className="rounded-ss-lg rounded-se-lg bg-cover">
-            <img  
+        <div className=" h-[35vh] w-full grid ">
+          <div className="rounded-ss-lg rounded-se-lg  h-full w-full">
+            {/* <img  
               src={courses.courseImage}
               className=" w-full h-[200px] rounded-ss-lg rounded-se-lg"
               loading="lazy"
-            />
+            /> */}
+            <div className=" h-full w-full bg-cover bg-center rounded-ss-lg rounded-se-lg " style={{backgroundImage: `url(${courses.courseImage})`}} loading="lazy"></div>
           </div>
         </div>
         <div className="p-3 grid items-center ">

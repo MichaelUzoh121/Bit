@@ -40,9 +40,9 @@ function Auth() {
 
         <div className="grid items-center h-full w-full justify-items-center hide-scrollbar  overflow-y-scroll"  style={{ scrollbarWidth: "none" }}>
           {isRegister ? (
-            <div className="grid mb-10 mt-10 h-[120vh] md:h-[130vh] lg:h-[150vh] w-[90%] grid-rows-[0.5fr_2.5fr]">
-              <div className="grid items-center justify-center  ">
-                <img src={image} alt="Logo" className=" md:h-[15vh] md:w-[100%] lg:h-[17vh] lg:w-[20vw]" />
+            <div className="grid mb-10 mt-10 h-[130vh] md:h-[130vh] lg:h-[150vh] w-[90%] grid-rows-[0.5fr_2.5fr]">
+              <div className="grid items-center justify-center ">
+                <img src={image} alt="Logo" className=" h-[10vh] w-[100%] md:h-[15vh] md:w-[100%] lg:h-[17vh] lg:w-[20vw]" />
               </div>
               <div className="grid grid-rows-[0.4fr_3fr]">
                 <div className="grid items-center">
@@ -116,7 +116,7 @@ function Auth() {
           ) : (
             <div className="  h-[60vh] w-[90%] mt-10 mb-10 grid grid-rows-[1fr_3fr] text-sm ">
               <div className=" grid items-center justify-center ">
-              <img src={image} alt="Logo" className=" md:h-[13vh] md:w-full lg:h-[13vh] lg:w-[15vw]" />
+              <img src={image} alt="Logo" className=" h-[10vh] w-[100%] md:h-[13vh] md:w-full lg:h-[12vh] lg:w-[15vw]" />
               </div>
               <div className=" grid grid-rows-[0.5fr_2fr]  ">
               <div className="grid items-center ">

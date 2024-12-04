@@ -329,5 +329,285 @@
       "Embedded systems, 3d Modeling, Assembling anf Printing",
       "Natural Language Processing (NPL), Internet of things(IOT)"
     ]
+  },
+  {
+    "id":9,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "AI & Machine Learning",
+    "courseDuration": "7 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "Introduction to Machine Learning, Machine Learning Fundamentals",
+     "Mathematics and Stattistics for Machine Learning",
+     "Programming for Machine Learning(Python)",
+     "Machine Learning",
+     "Time Series Forcasting, Power BI",
+     "Text and Image Regcognition, Neural Networks",
+     "Natural Language Processing(NLP), Computer Vision",
+     "Data Science (Machine Learning Models to solve Real-World Problems)",
+     "Final Project"
+    ]
+  },
+  {
+    "id":10,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Deep Learning",
+    "courseDuration": "7 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "Introduction to Machine Learning",
+      "Neural Network Fundamentals",
+      "Convolutional Neural Network(CNNs)",
+      "Recurrent Neural Networks(RNNs)",
+      "Generative Adversarial Networks (GANs), API, Open CV",
+      "Reinforcefment Learning and Deep Reinforcement Learning, Chatbot Development",
+      "Advance Deep Learning Techniques",
+      "Deep Learning for Natural Language Processing(NLP), Deep Learning Application",
+      "Final Project"
+    ]
+  },
+  {
+    "id":11,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Machine Learning",
+    "courseDuration": "4 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "Introduction to Data Science and Machine Learning",
+      "Supervised, Unsupervised and Reinforcement Learning",
+      "Linear regression, Logistic regression and k-nearest neighbors(KNN)",
+      "Model Evaluation and Validation, Model Optimization and Hyperparimeter Tuning",
+      "Kernel Density Estimation and Face Detection Pipeline etc."
+    ]
+  },
+  {
+    "id":12,
+    "courseImage": "../src/image/ai.jpeg",
+    "courseName": "Software Engineering",
+    "courseDuration": "12 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      {
+        "track": "Module 1",
+        "modules": [
+          "HTML5, CSS, Bootstrap, Tailwind, Pure CSS",
+          "Javascript, Typescript",
+          "ReactJs, VueJs, API",
+          "Express, NextJs, Web Hosting and Management",
+          "SQL, GraphQL, MongoDB"
+        ]
+      },
+      {
+        "track": "Module 2",
+        "modules": [
+          "UI/UX Design (Adobe XD, Figma)",
+          "SDLC, JAD, RAD, Prototyping, Flowchart",
+          "Algorithm, OOP, OOD, Software Testing", 
+          "Problem Solving and Logical Thinking",
+          "Operating System (Linus, IOS, Windows)",
+          "Shell, SQL, MySQL"
+        ]
+      },
+      {
+        "track": "Module 3 : App Development",
+        "modules": [
+          "Java SE",
+          "VB.Net",
+          "C#",
+          "Python",
+          "Dart or Go"
+        ]
+      },
+      {
+        "track": "Module 4 : (Cross Platform Mobile App Development)",
+        "modules": [
+          "Andriod Cross Platform (Flutter Dart)",
+          "React Native",
+          "REST, API",
+          "Database Technology",
+          "Git & Github",
+          "Final Project"
+        ]
+      }
+    ]
+  },
+  {
+    "id":13,
+    "courseImage": "../src/image/ai.jpeg",
+    "courseName": "Cross Platform Mobile App Development",
+    "courseDuration": "4 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      {
+        "track": "Andriod (Flutter)",
+        "modules": [
+          "Andriod Fundamental",
+          "JAVA/Kotlin/Dart",
+          "Andriod SDK",
+          "Andriod Studio",
+          "Andriod USer Interface",
+          "Navigation Interactivity",
+          "API",
+          "Database Technology",
+          "Implementing Navigation",
+          "Andriod Testing",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "React Native",
+        "modules": [
+          "HTML, CSS, Javascript",
+          "ES6 & React Fundamental",
+          "Virtual DOM",
+          "Prototyping",
+          "User Interface",
+          "REST API, Redux",
+          "Meteor, Parse Server",
+          "Esint/Jest",
+          "React Native",
+          "Debugging",
+          "Git & Github",
+          "Final Project"
+        ]
+      },
+      {
+        "track": "C#-XAMARIN",
+        "modules": [
+          "C#",
+          "ASP.Net",
+          "MVVM Development",
+          "Xamarin Studio $ Visual Studio",
+          "API",
+          "Database Technology",
+          "Debugging & Testing",
+          "Git & Github",
+          "Final Project"
+        ]
+      }
+    ]
+  },
+  {
+    "id":14,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Python Essentials",
+    "courseDuration": "3 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "Intro to programming",
+     "Python Tools and IDE overview",
+     "Python Essential, GUI",
+     "Database",
+     "Git & Github"
+    ]
+  },
+  {
+    "id":15,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Advance Python (for AI)",
+    "courseDuration": "4 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+      "Python Essential",
+      "Python Core, Interactive Python, Data Processing with Numpy",
+      "Data Processing with Pandas",
+      "Advance Pandas, Pivot Tables and vitualization"
+    ]
+  },
+  {
+    "id":16,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Database (Oracle)",
+    "courseDuration": "4 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "Oracle SQL",
+     "Linux basics",
+     "Oracle VMbox",
+     "OCA",
+     "OCP"
+    ]
+  },
+  {
+    "id":17,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Graphics Design",
+    "courseDuration": "2 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "Intro to graphics",
+     "Corel Draw",
+     "Illustration",
+     "Photoshop",
+     "Indesign"
+    ]
+  },
+  {
+    "id":18,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "ICT Digital Literacy",
+    "courseDuration": "8 Weeks",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "PC/IT Basics",
+     "Keyboard/ Typing Skills",
+     "Microsoft Word",
+     "Microsoft Powerpoint",
+     "Microsoft Access", 
+     "Microsoft Excel",
+     "Internet Operation"
+    ]
+  },
+  {
+    "id":19,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Advance Data Processing",
+    "courseDuration": "3 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "PC/IT Basics",
+     "Keyboard/ Typing Skills",
+     "Microsoft OFfice (Word, Powerpoint, Excel, Publisher, Access)",
+     "Google Tools",
+     "Internet Operation",
+     "Corel Draw",
+     "Basic Photoshop and AI for Photo Editing",
+     "AI for researches",
+     "Scanning and Printing"
+    ]
+  },
+  {
+    "id":20,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Advance Digital Marketing",
+    "courseDuration": "4 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "Digital Marketing Basics, Online Reputation Mgt., SEO, SEM, Email Marketing, B2B and B2C",
+     "Graphics Design Basics",
+     "Blogging and Monitization, Content Marketing SMM(Facebook, Instagram, LinkdIn, X(Twitter). )",
+     "Basic Web Design(Landing Page), Wordpress",
+     "Google Ads Leads generation, Youtube Mini Importation & E-commerce, Affiliate Marketing, Video & Advertising.",
+     "Web Analytics, Artificial Intelligence (for conent generation), Video Editing."
+    ]
+  },
+  {
+    "id":21,
+    "courseImage": "../src/image/tech.jpeg",
+    "courseName": "Digital Office Management",
+    "courseDuration": "4 Months",
+    "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
+    "courseContent": [
+     "Computer Fundamentals",
+     "Internet Operation",
+     "Software Installation and Maintenace, Bulk SMS",
+     "Microsoft OFfice (365/Word, Powerpoint, Excel, Form, Basic Networking, Basic Graphic Design)",
+     "Google Suite Tools, Zoom/Microsoft Teams, Remote Support Tools, Cloud Storage, SQL", 
+     "SEO, Facebook/ Instagram Ads & Monitization, E-commerce & Affliate Marketing"
+     
+    ]
   }
+  
+
 ]

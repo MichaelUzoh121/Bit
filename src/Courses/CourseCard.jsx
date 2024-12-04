@@ -8,7 +8,7 @@ const CourseCard = ({ courses }) => {
 
   const showAcc = () => {
     if (acc === "0px") {
-      setAcc("250px");
+      setAcc("220px");
     } else {
       setAcc("0px");
     }
@@ -50,7 +50,7 @@ const CourseCard = ({ courses }) => {
                     {Array.isArray(courses.courseContent) &&
                     courses.courseContent.length > 0 ? (
                       typeof courses.courseContent[0] === "string" ? (
-                        // Case 1: Array of strings
+                        // if it's an Array of strings
                         <ul className="list-disc pl-6">
                           {courses.courseContent.map((content, idx) => (
                             <li key={idx} className="mb-2">
@@ -59,11 +59,11 @@ const CourseCard = ({ courses }) => {
                           ))}
                         </ul>
                       ) : (
-                        // Case 2: Array of objects
+                        // Array of objects
                         courses.courseContent.map((content, idx) => (
                           <div key={idx} className="mb-4">
                             {content.track && (
-                              <h4 className="text-md font-semibold text-gray-800">
+                              <h4 className="text-md font-semibold text-sky-900 pl-2">
                                 {content.track}
                               </h4>
                             )}
@@ -95,7 +95,7 @@ const CourseCard = ({ courses }) => {
                 <p>{courses.courseDuration}</p>
               </div>
               <div className=" flex gap-1 items-center ">
-                <IoIosAlert />
+                <IoIosAlert className=" text-red-700"/>
                 <p>Three times a week</p>
               </div>
             </div>

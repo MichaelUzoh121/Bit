@@ -20,7 +20,12 @@ export default {
         playfair: ['"Playfair Display"', 'serif'],
         poppins: ['"Poppins"', 'sans-serif'],
       },
-    },
+      gradientColorStops: {
+        '90%': '90%', 
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to left, #fff5, #0C4A6E, #fff5)',
+      }
   },
   plugins: [
     require('tailwind-scrollbar'),
@@ -28,4 +33,4 @@ export default {
   variants: {
     scrollbar: ['rounded'], // Adds support for rounded scrollbars
   },
-};
+}}

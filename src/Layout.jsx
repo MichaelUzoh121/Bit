@@ -4,6 +4,7 @@ import { Outlet, useLocation } from 'react-router-dom'
 import Footer from './Component/Footer'
 import MySwiper from './Component/Swiper'
 
+
 function Layout() {
   const { pathname } = useLocation();
 

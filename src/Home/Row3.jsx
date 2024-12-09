@@ -1,7 +1,6 @@
 import React from "react";
 import image from "../image/box.webp";
 
-
 function Row3() {
   return (
     <div className=" min-h-[120vh] md:min-h-[90vh] lg:min-h-[85vh] w-full bg-[#E6F0FE] grid grid-cols-1  lg:grid-cols-2 ">
@@ -15,12 +14,12 @@ function Row3() {
               What we offer
             </p>
             <p className=" text-3xl font-medium text-sky-900 ">
-              Certified Tech Training Courses and
+              Accredited Technology Training Programs
             </p>
             <p>
-              Explore our extensive selection of highly sought-after
-              beginner-friendly tech courses, meticulously designed to empower
-              and inspire learners at every step of their educational journey.
+              Discover our wide range of in-demand, beginner-friendly tech
+              courses, thoughtfully crafted to equip and motivate learners at
+              every stage of their learning journey.
             </p>
           </div>
         </div>
@@ -39,9 +38,9 @@ function Row3() {
           ></div>
         </div>
         <div className=" grid items-center justify-items-center ">
-          <div className=" min-h-[40vh] w-[90%] bg-white rounded-xl grid items-center justify-center ">
-          <p className=' text-4xl '>add slider here</p>
-          </div>
+          {/* <div className=" min-h-[40vh] w-[90%] bg-white rounded-xl grid items-center justify-center ">
+            <p className=" text-4xl ">add slider here</p>
+          </div> */}
         </div>
         <div className="  grid justify-items-end ">
           <div className=" h-full w-[30%] md:w-[20%] lg:w-[20%] bg-sky-300 rounded-ss-xl "></div>

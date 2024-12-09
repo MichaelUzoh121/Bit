@@ -2,7 +2,7 @@
   {
     "id":0,
     "courseImage": "../src/image/tech.jpeg",
-    "courseName": "Front-End Development (Specialised)",
+    "courseName": "Front-End Web Development (Specialised)",
     "courseDuration": "3 Months",
     "courseHint": "Start off your career today as a Front-End Web Developer. Learn to build high-quality websites with dynamic applications to create stunning user experiences.",
     "courseContent": [
@@ -36,7 +36,7 @@
   {
     "id":2,
     "courseImage": "../src/image/tech.jpeg",
-    "courseName": "Front-End Development (Complete Stack)",
+    "courseName": "Front-End Web Development (Complete Stack)",
     "courseDuration": "5 Months",
     "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
     "courseContent": [
@@ -55,7 +55,7 @@
   {
     "id":3,
     "courseImage": "../src/image/box.webp",
-    "courseName": "Back-End Development",
+    "courseName": "Back-End Web Development",
     "courseDuration": "3 Months",
     "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
     "courseContent": [
@@ -189,7 +189,7 @@
   {
     "id":5,
     "courseImage": "../src/image/ai.jpeg",
-    "courseName": "Artificial Intelligence(AI) (Complete Stack)",
+    "courseName": "Artificial Intelligence (AI) (Complete Stack)",
     "courseDuration": "12 Months",
     "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
     "courseContent": [
@@ -316,7 +316,7 @@
   {
     "id":8,
     "courseImage": "../src/image/tech.jpeg",
-    "courseName": "Robotic Development And Automation(RDA)",
+    "courseName": "Robotic Development And Automation (RDA)",
     "courseDuration": "12 Months",
     "courseHint": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aesentium vel voluptate autem minus architecto ab obcaecati sunt.",
     "courseContent": [

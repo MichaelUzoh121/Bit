@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -25,7 +26,10 @@ export default {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to left, #fff5, #0C4A6E, #fff5)',
-      }
+      },
+      screens: {
+        'mc': '1440px', // Custom breakpoint for MacBook
+      },
   },
   plugins: [
     require('tailwind-scrollbar'),

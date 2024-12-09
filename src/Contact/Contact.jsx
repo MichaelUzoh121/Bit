@@ -1,16 +1,17 @@
 import React from "react";
-import image from "../image/contact.jpg";
+import image from "../image/contact2.png";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
-import { MdOutlinePhone } from "react-icons/md";
+// import { MdOutlinePhone } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
   return (
     <div className="  w-full grid ">
       <div className="   grid ">
-        <div className=" grid items-center justify-items-center min-h-[40vh] ">
-          <div className=" min-h-[30vh] lg:w-[40%] md:w-[70%] md:min-h-[50vh] lg:min-h-[30vh]  grid grid-rows-[1.5fr_2fr] ">
-            <div className=" grid grid-cols-[0.2fr_1fr_1fr_1fr_0.2fr]">
+        <div className=" grid items-center justify-items-center bg-white min-h-[30vh] md:min-h-[20vh] mc:min-h-[20vh] lg:min-h-[30vh]">
+          <div className=" min-h-[10vh] w-[90%] lg:w-[40%] md:w-[70%]  md:min-h-[15vh] lg:min-h-[20vh] mc:min-h-[15vh]  grid grid-rows-[1.5fr_2fr] ">
+            {/* <div className=" grid grid-cols-[0.2fr_1fr_1fr_1fr_0.2fr]">
               <div></div>
               <div className=" flex flex-col items-end justify-end gap-2 pr-3 ">
                 <div className=" h-1 w-10 bg-sky-500 "></div>
@@ -25,32 +26,41 @@ function Contact() {
                 <div className=" h-1 w-10 bg-sky-500 "></div>
                 <div className=" h-1 w-20 bg-sky-500 "></div>
               </div>
-            </div>
-            <div className=" grid items-center justify-center ">
+            </div> */}
+            <h2 className=" text-center mt-4 px-4 relative font-semibold text-sky-900 before:h-[2px] before:w-[180px] before:top-2 before:bg-sky-900 before:absolute before:ml-[-30px] after:h-[2px] after:w-[250px] after:top-4 after:bg-sky-900 after:absolute after:ml-[-180px]">
+              <span className=" px-3 bg-white relative pb-3 z-10 uppercase">
+                Contact us
+              </span>
+            </h2>
+            <div className=" grid items-center justify-center  ">
               <p className=" text-4xl font-bold text-center ">
                 We are here to Help You
               </p>
             </div>
           </div>
         </div>
-        <div className="  grid gap-5   ">
-          <div className=" min-h-[50vh] grid justify-items-center items-center ">
-            <div className=" lg:w-[90%] md:w-[60%] lg:h-[90%]  grid grid-cols-1 lg:grid-cols-3 gap-3">
+        <div className="  grid   gap-5 bg-white">
+          <div className=" min-h-[110vh] md:min-h-[70vh] lg:min-h-[60vh] grid justify-items-center items-center">
+            <div className=" min-h-[100vh] w-[80%] lg:w-[90%] md:w-[90%] md:min-h-[60vh] lg:min-h-[50vh]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               <div className=" grid grid-rows-[0.7fr_2fr] ">
-                <div className="  grid items-center justify-items-center  relative ">
-                  <div className=" h-20 w-20 rounded-full bg-sky-500 relative grid items-center justify-center text-4xl text-white lg:top-[40%] top-[62%] ">
+                <div className="  grid items-center justify-items-center  relative">
+                  <div className=" h-20 w-20 rounded-full bg-sky-500 relative grid items-center justify-center text-4xl text-white lg:top-[40%] top-[40%] ">
                     <MdOutlineEmail />
                   </div>
                 </div>
                 <div className=" bg-[#F0F9FA] rounded-md shadow-md flex gap-2 flex-col items-center justify-center ">
                   <p className="text-2xl font-bold">Email Here</p>
-                  <p>example@cloud.com</p>
-                  <p>info@domain.com</p>
+                  <p>
+                    <a href="mailto:codingacad@gmail.com">codingacad@gmail.com</a>
+                  </p>
+                  <p>
+                    <a href="mailto:info@bitxbase.com">info@bitxbase.com</a>
+                  </p>
                 </div>
               </div>
               <div className=" grid grid-rows-[0.7fr_2fr] ">
                 <div className="  grid items-center justify-center relative ">
-                  <div className=" h-20 w-20 rounded-full grid items-center  relative justify-center text-4xl text-white bg-sky-500  lg:top-[40%] top-[62%]  ">
+                  <div className=" h-20 w-20 rounded-full grid items-center  relative justify-center text-4xl text-white bg-sky-500  lg:top-[40%] top-[45%]  ">
                     <MdOutlineLocationOn />
                   </div>
                 </div>
@@ -58,9 +68,9 @@ function Contact() {
                   <p className="text-2xl font-bold">Location Here</p>
                   <div className=" flex   ">
                     <div className=" grid ">
-                      <p className=" text-sm text-justify px-5 ">
-                        Shop 10, 1st Floor, PETRO-CAM Plaza Filling Station,
-                        Abuleado B/Stop, Satellite Town, Lagos, Nigeria
+                      <p className=" text-sm text-center px-5 ">
+                        Shop 10, 1st Floor, PETRO-CAM Plaza, PETRO-CAM Filling Station,
+                        Abule-Ado B/Stop, Satellite Town, Lagos, Nigeria
                       </p>
                     </div>
                     <div className="  grid ">
@@ -73,28 +83,34 @@ function Contact() {
                 </div>
               </div>
               <div className=" grid grid-rows-[0.7fr_2fr]  ">
-                <div className="  grid items-center justify-center relative ">
-                  <div className=" h-20 w-20 rounded-full grid items-center justify-center text-4xl text-white bg-sky-500 relative lg:top-[40%] top-[62%]  ">
-                    <MdOutlinePhone />
+                <div className="  grid items-center justify-center relative">
+                  <div className=" h-20 w-20 rounded-full grid items-center justify-center text-4xl text-white bg-sky-500 relative lg:top-[40%] top-[50%]  ">
+                    {/* <MdOutlinePhone /> */}
+                    <FaWhatsapp />
                   </div>
                 </div>
                 <div className=" bg-[#F0F9FA] rounded-md shadow-md flex gap-2 flex-col items-center justify-center ">
-                  <p className="text-2xl font-bold">Call Here</p>
-                  <p>09015517032</p>
-                  <p>09015517032</p>
+                  <p className="text-2xl font-bold">Call / Chat  Here</p>
+                  <p>
+                    <a href="tel:+2347086522451">07086522451</a>
+                  </p>
+                  <p>
+                    <a href="tel:+2348112551244">08112551244</a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className=" min-h-[90vh] bg-[#FAFAFA] grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 ">
-            <div className=" grid justify-items-center lg:justify-items-end items-center ">
+          {/* contact form  */}
+          <div className=" min-h-[160vh] lg:min-h-[90vh] bg-[#FAFAFA] grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2 ">
+            <div className="  grid justify-items-center lg:justify-items-end items-center ">
               <div
                 className=" w-[100%] md:w-[70%]  lg:w-[70%] h-[90%] bg-no-repeat bg-cover  "
                 style={{ backgroundImage: `url(${image})` }}
               ></div>
             </div>
             <div className="  grid items-center justify-items-center ">
-              <div className=" min-h-[75vh] w-[80%] bg-white shadow-lg rounded-md grid items-center justify-items-center ">
+              <div className=" min-h-[70vh] lg:min-h-[75vh] w-[90%] lg:w-[80%] bg-white shadow-lg rounded-md grid items-center justify-items-center ">
                 <div className=" min-h-[65vh] w-[90%] grid grid-rows-[1fr_2fr_1.7fr_0.8fr] gap-2 ">
                   <div className=" grid items-center ">
                     <p className=" text-3xl font-semibold text-sky-500 ">

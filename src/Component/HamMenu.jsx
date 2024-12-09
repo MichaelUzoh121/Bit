@@ -6,7 +6,7 @@ import { BsX } from 'react-icons/bs'
 function HamMenu({slide,closeSlide}) {
   return (
     <div className=' h-[100vh] top-0 flex duration-500 z-[1000] w-full fixed' style={{left:slide}}>
-        <nav className=' grid grid-rows-[20%_80%] w-[250px] h-full border-r-4 border-solid border-sky-900'>
+        <nav className=' grid grid-rows-[20%_80%] w-[90%] md:w-[50%] lg:w-[30%] h-full border-r-4 border-solid border-sky-900'>
             <div className=' bg-white grid place-items-center relative '>
                 <img src={logo} className=' w-[150px]'/>
                 <button className=' bg-sky-900 p-2 absolute top-2 right-2 rounded-full text-white text-[20px] font-extrabold' onClick={closeSlide}><BsX/></button>

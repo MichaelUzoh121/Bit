@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Row9() {
   return (
-    <div className=" min-h-[80vh]  md:min-h-[70vh] lg:min-h-[70vh] w-full grid items-center justify-items-center  ">
-      <div className=" min-h-[60vh] md:min-h-[50vh] lg:min-h-[50vh] w-[90%] grid lg:grid-cols-2 ">
+    <div className=" min-h-[80vh]  md:min-h-[45vh] bg-white lg:min-h-[70vh] w-full grid items-center justify-items-center  ">
+      <div className=" min-h-[60vh] md:min-h-[30vh]  lg:min-h-[50vh] w-[90%] grid lg:grid-cols-2 ">
         <div className="  grid items-center">
           <div className=" flex flex-col gap-10 lg:gap-4 ">
             <p className=" text-md  font-bold text-sky-700 uppercase ">

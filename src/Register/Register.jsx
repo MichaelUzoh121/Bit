@@ -16,7 +16,7 @@ function Auth() {
               <p className="text-3xl font-semibold">Already have an account?</p>
               <button
                 onClick={() => setIsRegister(false)}
-                className=" h-[7vh] w-full border-2 hover:bg-sky-600 hover:border hover:border-sky-600 transition-all duration-[0.5s]"
+                className=" h-[7vh] w-full border-2 hover:text-white hover:bg-sky-600 hover:border hover:border-sky-600 transition-all duration-[0.5s]"
               >
                 Login
               </button>
@@ -28,7 +28,7 @@ function Auth() {
               </p>
               <button
                 onClick={() => setIsRegister(true)}
-                className="h-[7vh] w-full border-2 hover:bg-sky-600 hover:border hover:border-sky-600 transition-all duration-[0.5s]"
+                className="h-[7vh] w-full border-2 hover:text-white hover:bg-sky-600 hover:border hover:border-sky-600 transition-all duration-[0.5s]"
               >
                 Register
               </button>

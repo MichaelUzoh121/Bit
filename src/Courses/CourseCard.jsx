@@ -29,12 +29,12 @@ const CourseCard = ({ courses }) => {
         </div>
         <div className="p-3 grid items-center ">
           <div className="flex flex-col gap-3 ">
-            <p className=" text-xl font-semibold ">{courses.courseName}</p>
+            <p className=" text-sky-500 text-xl font-semibold ">{courses.courseName}</p>
             <p>{courses.courseHint}</p>
             <div className=" relative">
               {/* Button to toggle accordion */}
               <button
-                className="h-[40px] w-full flex justify-between px-4 font-bold  items-center bg-sky-500"
+                className="h-[40px] w-full flex justify-between px-4 font-bold text-white  items-center bg-sky-500"
                 onClick={showAcc}
               >
                 <span>Course Contents</span>

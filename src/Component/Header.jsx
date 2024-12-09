@@ -50,7 +50,7 @@ function Header() {
         <div
           className={` hidden lg:grid items-center justify-center duration-500 bg-sky-500 ${
             pathname === "/courses"
-              ? " rounded-[50px] h-[50px] w-[150px] text-black mt-2"
+              ? " rounded-[50px] h-[50px] w-[150px] text-white mt-2"
               : " text-white"
           }`}
         >
